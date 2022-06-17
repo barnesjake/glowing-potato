@@ -11,7 +11,10 @@ sbt service/it:test
 
 sbt test:compile
 
+### Running tests
 #### Sbt console:
-testOnly *MySuite -- -z foo
+`testOnly *MySuite -- -z foo`
 #### Command line
-sbt 'testOnly *MySuite -- -z foo'
+`sbt 'testOnly *MySuite -- -z foo'`
+#### just rerun failed tests - faster
+`test:testQuick`
