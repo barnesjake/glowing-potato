@@ -11,7 +11,7 @@ sbt service/it:test
 
 sbt test:compile
 
-####Sbt console:
+#### Sbt console:
 testOnly *MySuite -- -z foo
-####Command line
+#### Command line
 sbt 'testOnly *MySuite -- -z foo'
