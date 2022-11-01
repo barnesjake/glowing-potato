@@ -18,3 +18,6 @@ sbt test:compile
 `sbt 'testOnly *MySuite -- -z foo'`
 #### just rerun failed tests - faster
 `test:testQuick`
+
+### Test coverage using scoverage
+`sbt clean coverage test coverageAggregate`
