@@ -1,15 +1,15 @@
 ## SBT
 
-Compile modules:
+### Compile modules:
 Enter interactive mode in sbt: sbt
-Change the focus to the module, e.g.: project func
-Then you can compile: compile
+Change the focus to the module, e.g.: `project func`
+Then you can compile: `compile`
 
-`or`
+or
 
-sbt service/it:test
+`sbt service/it:test`
 
-sbt test:compile
+`sbt test:compile`
 
 ### Running tests
 #### Sbt console:
@@ -21,3 +21,8 @@ sbt test:compile
 
 ### Test coverage using scoverage
 `sbt clean coverage test coverageAggregate`
+
+## Cross build related
+`+<task>`
+i.e. `+compile` compiles against versions specified in build.sbt (`crossScalaVersions`)
+or `+test`
