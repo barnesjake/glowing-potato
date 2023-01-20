@@ -26,3 +26,6 @@ or
 `+<task>`
 i.e. `+compile` compiles against versions specified in build.sbt (`crossScalaVersions`)
 or `+test`
+
+## check local ivy artifacts
+`cd ~/.ivy2/local`
