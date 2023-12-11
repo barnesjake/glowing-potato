@@ -8,6 +8,7 @@ git push --set-upstream origin <branch_name> -f
 ```
 git rebase master -i
 ```
+https://www.squash.io/how-to-rebase-local-branch-onto-remote-master-in-git/
 
 
 ### Delete old branches on local, be cautious
